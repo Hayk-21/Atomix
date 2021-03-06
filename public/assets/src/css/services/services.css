@@ -1,0 +1,685 @@
+/*MY Bootstrap classes  START*/
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-1 {
+    flex: 0 0 6.333333% !important;
+    max-width: 6.333333% !important;
+}
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.col-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+
+/*my Bootstrap classes  END*/
+
+
+/*MY Servicess Style  START......................................................*/
+
+.my_Servicess_sec{
+    border: 1px solid #FFDE2F;
+    /*background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9) ), url('../img/metal1.png');*/
+    /*background: url("../../img/services/Background.png");*/
+    background: #FFDE2F;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#Services_logo{
+    margin-bottom: 10px;
+}
+.my_Servicess_sec a{
+    text-decoration: none;
+}
+.my_Servicess_container{
+    margin-top: 325px;
+    max-width: 1430px !important;
+}
+.my_Servicess_row{
+    background-color:#282828;
+    height: 265px;
+    margin-bottom: 145px;
+    margin-left: -1% !important;
+    margin-right: -1% !important;
+}
+.first_img_row{
+    /*border: 1px solid red;               !*.........................*!*/
+    padding: 0 !important;
+}
+.first_img{
+    width: 100%;
+    height: 265px;
+}
+.img_fon{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.second_row{
+    /*border: 1px solid red;               !*.........................*!*/
+}
+.second_img{
+    height: 350px;
+    margin-top: -40px;
+    margin-left: -130px
+}
+.second_text_div{
+    width: 310px;
+    height: 70px;
+    /*border: 1px solid blue;*/                    /*............................. */
+    top: -227px;
+    left: -92px;
+    position: relative;
+}
+.second_text_div_br{
+    width: 310px;
+    height: 70px;
+    /*border: 1px solid blue;*/                    /*............................. */
+    top: -263px;
+    left: -89px;
+    position: relative;
+}
+.second_text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F09D06;
+    /*border: 1px solid #000000;*/
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.third_row{
+    /*border: 1px solid green;               !*.........................*!*/
+}
+.third_row_vector{
+    width: 89px;
+    height: 306px;
+    margin-top: -20px;
+    margin-left: -57%;
+}
+.fourth_row{
+    /*border: 1px solid red;               !*.........................*!*/
+}
+.fourth_text-div{
+    /*border: 1px solid brown;              !*.........................*!*/
+    width: 100%; margin: 0 auto;
+    margin-top: 37px;
+}
+.fourth_text{
+    /*font-family: 'Roboto', sans-serif;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #F3F3F3;
+    margin: 0;
+}
+.fourth_button_div{
+    /*border:1px solid #ff7c7c;              !*.........................*!*/
+    width: 100%;
+    text-align: center;
+}
+.fourth_button{
+
+    /*margin-left: 27%;*/
+    margin-top: 28px;
+    border-radius: 10px;
+    background-color: #FFDE2F;
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    /*font-family: Roboto;*/
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+}
+.fourth_button:hover{
+    /*font-size: 30px;*/
+    background-color: #000;
+    color: #fff;
+    /*padding: 10px 35px;*/
+    border: none;
+    /*border-radius: 10px;*/
+    /*margin-top: 20px;*/
+    cursor: pointer;
+}
+@media (max-width: 1600px){
+    .my_Servicess_row{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    .third_row_vector {
+        width: 89px;
+        height: 306px;
+        margin-top: -20px;
+        margin-left: -27%;
+    }
+}
+
+@media (max-width: 1426px){
+
+    .third_row_vector{
+        margin-left: -34%;
+    }
+    .fourth_text{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1341px){
+    .my_Servicess_row{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    .third_row_vector{
+        margin-left: -12%;
+    }
+}
+@media (max-width: 1280px) {
+    .col-1 {
+        flex: 0 0 8.333333% !important;
+        max-width: 8.333333% !important;
+    }
+
+    .my_Servicess_container {
+        margin-top: 309px;
+        max-width: 1064px !important;
+    }
+
+    .my_Servicess_row {
+        height: 230px;
+    }
+
+    .first_img {
+        height: 230px;
+    }
+
+    .second_img {
+        height: 289px;
+        margin-top: -24px;
+        margin-left: -108px;
+    }
+
+    .second_text_div {
+        top: -184px;
+        left: -97px;
+    }
+
+    .second_text {
+        font-size: 49px;
+        line-height: 60px;
+    }
+
+    .second_text_div_br {
+        top: -215px;
+        left: -98px;
+    }
+
+    .third_row_vector {
+        margin-left: -27%;
+        height: 84%;
+        margin-top: -25px;
+    }
+
+    .fourth_text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .fourth_button {
+        width: 243px;
+        height: 52px;
+        font-size: 23px;
+    }
+}
+@media (max-width: 1004px) {
+    .third_row_vector {
+        margin-left: -3%;
+    }
+    .fourth_text{
+        font-size: 20px;
+    }
+}
+@media (max-width: 917px) {
+    .third_row_vector {
+        margin-left: -12%;
+    }
+    .fourth_text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 883px) {
+    .third_row_vector {
+        margin-left: 11px;
+    }
+    .fourth_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .fourth_button {
+        width: 182px;
+        height: 42px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 829px) {
+    .my_Servicess_row {
+        height: 190px;
+    }
+    .first_img {
+        height: 190px;
+    }
+    .second_img {
+        height: 243px;
+        margin-top: -21px;
+        margin-left: -77px;
+    }
+    .second_text_div {
+        top: -155px;
+        left: -93px;
+    }
+    .second_text {
+        font-size: 45px;
+        line-height: 42px;
+    }
+    .second_text_div_br {
+        top: -172px;
+        left: -93px;
+    }
+    .fourth_text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .my_Servicess_container {
+        margin-top: 197px;
+        max-width: 668px !important;
+    }
+    .my_Servicess_row {
+        height: 102px;
+        margin-bottom: 78px;
+        margin-left: 8% !important;
+        margin-right: 8% !important;
+    }
+
+    .first_img {
+        height: 102px;
+    }
+    .second_img {
+        height: 131px;
+        margin-top: -13px;
+        margin-left: -57px;
+    }
+    .second_text_div {
+        top: -89px;
+        left: -136px;
+    }
+    .second_text {
+        /*font-family: PT Sans Narrow;*/
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #F09D06;
+    }
+    .second_text_div_br {
+        top: -105px;
+        left: -136px;
+    }
+    .third_row_vector {
+        margin-left: -55px;
+        height: 50%;
+        margin-top: -21px;
+    }
+    .fourth_row {
+        padding-left: 0 !important;
+    }
+    .fourth_text-div {
+        margin-top: 10px;
+    }
+    .fourth_text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .fourth_button {
+        width: 101px;
+        height: 26px;
+        font-size: 12px;
+        line-height: 24px;
+        /*margin: 5px;*/
+        margin-top: 9px;
+    }
+
+}
+@media (max-width: 616px) {
+    .third_row_vector {
+        margin-left: -44px;
+    }
+    .fourth_text {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}
+@media (max-width: 550px) {
+    .my_Servicess_container {
+        margin-top: 197px;
+        max-width: 550px !important;
+    }
+
+    .fourth_row {
+        padding-left: 15px !important;
+    }
+    .third_row_vector {
+        margin-left: -36px;
+    }
+    .fourth_text-div {
+        /*border: 1px solid red;*/
+        width: 105%;
+    }
+    .fourth_text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .fourth_button {
+        width: 72px;
+        height: 17px;
+        font-size: 8px;
+        line-height: 9px;
+        margin: 19px
+    }
+}
+@media (max-width: 524px) {
+    .third_row_vector {
+        margin-left: -37px;
+    }
+}
+@media (max-width: 504px) {
+    .third_row_vector {
+        margin-left: -33px ;
+    }
+}
+@media (max-width: 480px) {
+    .my_Servicess_container {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-top: 170px;
+    }
+
+    .my_Servicess_row {
+        height: 81px;
+        margin-bottom: 46px;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    .first_img {
+        height: 81px;
+    }
+
+    .second_img {
+        height: 107px;
+        margin-top: -10px;
+        margin-left: -42px;
+    }
+
+    .second_text {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    .second_text_div {
+        top: -72px;
+        left: -138px;
+    }
+
+    .second_text_div_br {
+        top: -83px;
+        left: -137px;
+    }
+
+    .third_row_vector {
+        margin-top: -12px;
+        margin-left: -45px ;
+        height: 107px;
+    }
+
+    .fourth_text-div {
+        width: 95%;
+        margin-top: 7px;
+    }
+    .fourth_text{
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .fourth_button_div {
+        margin-top: -12px;
+    }
+
+    .fourth_button {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 19px;
+        border-radius: 3px;
+    }
+
+}
+@media (max-width: 455px) {
+    .my_Servicess_row {
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+    .third_row_vector {
+        margin-left: -42px;
+    }
+    .fourth_text {
+        font-size: 8px;
+        line-height: 11px;
+    }
+}
+
+
+@media (max-width: 403px) {
+    .third_row_vector {
+        margin-left: -35px;
+    }
+}
+@media (max-width: 377px) {
+    .fourth_row {
+        max-width: 40% !important;
+    }
+    .fourth_text-div {
+        width: 110%;
+    }
+    .third_row_vector {
+        margin-left: -34px;
+    }
+}
+@media (max-width: 350px) {
+    .third_row_vector {
+        margin-left: -25px;
+    }
+    .fourth_text {
+        font-size: 7px;
+        line-height: 9px;
+    }
+    .fourth_text-div {
+        width: 116%;
+    }
+    .fourth_button {
+        width: 79px;
+        height: 14px;
+        font-size: 8px;
+        line-height: 10px;
+        margin: 20px
+    }
+}
+@media (max-width: 330px) {
+
+    .third_row_vector {
+        margin-left: -27px;
+    }
+    .fourth_button {
+        width: 69px;
+    }
+}
+@media (max-width: 320px) {
+    .my_Servicess_row {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    .first_img {
+        height: 79px;
+    }
+    .my_Servicess_row {
+        height: 79px;
+        margin-bottom: 25px;
+    }
+    .second_img {
+        height: 94px;
+        margin-top: -7px;
+        margin-left: -44px;
+    }
+    .second_text_div {
+        top: -64px;
+        left: -146px;
+    }
+    .second_text_div_br {
+        top: -73px;
+        left: -145px;
+    }
+    .second_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .third_row_vector {
+        margin-left: -45px;
+        margin-top: -15px;
+    }
+    .fourth_row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .fourth_text-div {
+        width: 89%;
+        text-align: left;
+        margin-right: 25px;
+    }
+    .fourth_text {
+        font-size: 9px;
+        line-height: 9px;
+    }
+    .fourth_button_div{
+        margin:-15px 0 0 -17px;
+    }
+    .fourth_button {
+        width: 100px;
+        height: 25px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+}
+
+
+/*MY Servicess Style  END......................................................*/
+.header .menu .ul-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+

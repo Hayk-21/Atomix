@@ -1,0 +1,98 @@
+.newsBackground {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../img/news/Background_1.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:  180px 0 1% 8%;
+}
+
+.newsAllContentContainer>div>h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 85px;
+}
+
+.newsAllContentContainer {  
+    width: 55%;
+}
+.aboutTheCompanyContainer{
+    display: grid;
+    grid-gap: 3px;
+    margin-bottom: 30px;
+}
+
+.newsPageContent {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 1200px) {
+    .newsAllContentContainer>div>h1 {
+        font-size: 28px;
+        line-height: 75px;
+    }
+    .newsPageContent {
+        font-size: 20px;
+        line-height: 25px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .newsBackground {
+        background-image: url(../../img/news/Background_2.png);
+        height: 100%;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:  180px 0 1% 8%;
+    }    
+    .newsAllContentContainer>div>h1 {
+        font-size: 25px;
+        line-height: 65px;
+    }
+    .newsPageContent {
+        font-size: 18px;
+        line-height: 22px;
+    }   
+}
+
+@media (max-width: 480px) {
+    .newsAllContentContainer {
+        width: 60%;
+    }
+    .newsAllContentContainer>div>h1 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .newsPageContent {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .newsPageContent {
+        font-size: 18px;
+        line-height: 22px;
+    }  
+}
+
+@media (max-width: 320px) {
+    .newsAllContentContainer {
+        width: 70%;
+    }
+    .newsAllContentContainer>div>h1 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .newsPageContent {
+        font-size: 12px;
+        line-height: 22px;
+    }    
+}

@@ -1,0 +1,200 @@
+.aboutUsBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/aboutUs/backgroundAboutUs.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:  180px 0 1% 8%;
+}
+
+.aboutUsAllContentContainer>div>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 85px;
+    margin: 40px 0 0 0;
+}
+
+.aboutUsAllContentContainer {
+    width: 55%;
+}
+
+.aboutUsPageContent {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.generalList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.generalList>li>span>img {
+    width: 15px;
+    height: 15px;
+}
+
+.howWeEarnMoneyList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.howWeEarnMoneyList>li>span>img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.theMainProjectPlansList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.theMainProjectPlansList>li>span>img {
+    width: 15px;
+    height: 15px;
+}
+
+.whoCanJoinContainer {
+    padding-bottom: 50px;
+}
+
+.whoCanJoinList {
+    list-style: none;
+    padding-left: 0;
+}
+.whoCanJoinList>li>span>img {
+    width: 15px;
+    height: 15px;
+}
+
+@media (max-width: 1200px) {
+    .aboutUsAllContentContainer>div>h1 {
+        font-size: 28px;
+        line-height: 75px;
+        margin: 35px 0 0 0;
+    }
+    .aboutUsPageContent {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .whoCanJoinContainer {
+        padding-bottom: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutUsBackground {
+        background-image: url(../../img/aboutUs/aboutUsBgMedia.png);
+        height: 100%;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:  180px 0 1% 8%;
+    }
+    .whoCanJoinContainer {
+        padding-bottom: 35px;
+    }
+    .aboutUsAllContentContainer>div>h1 {
+        font-size: 25px;
+        line-height: 65px;
+        margin: 25px 0 0 0;
+    }
+    .aboutUsPageContent {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .generalList>li>span>img {
+        width: 12px;
+        height: 12px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 12px;
+        height: 12px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 12px;
+        height: 12px;
+    }
+    .whoCanJoinList>li>span>img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutUsAllContentContainer {
+        width: 60%;
+    }
+    .aboutUsAllContentContainer>div>h1 {
+        font-size: 18px;
+        line-height: 40px;
+        margin: 25px 0 0 0;
+    }
+    .aboutUsPageContent {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .aboutUsPageContent {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .generalList>li>span>img {
+        width: 10px;
+        height: 10px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 10px;
+        height: 10px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 10px;
+        height: 10px;
+    }
+    .whoCanJoinList>li>span>img {
+        width: 10px;
+        height: 10px;
+    }
+    .whoCanJoinContainer {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .aboutUsAllContentContainer {
+        width: 70%;
+    }
+    .aboutUsAllContentContainer>div>h1 {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 25px 0 0 0;
+    }
+    .aboutUsPageContent {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .generalList>li>span>img {
+        width: 9px;
+        height: 9px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 9px;
+        height: 9px;
+    }
+    .howWeEarnMoneyList>li>span>img {
+        width: 9px;
+        height: 9px;
+    }
+    .whoCanJoinList>li>span>img {
+        width: 9px;
+        height: 9px;
+    }
+    .whoCanJoinContainer {
+        padding-bottom: 0;
+    }
+}

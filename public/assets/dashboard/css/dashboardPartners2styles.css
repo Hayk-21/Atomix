@@ -1,0 +1,814 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*.gridContainer {*/
+/*    display: grid;*/
+/*    grid-template-areas:*/
+/*            'logoLink logoLink logoLink logoLink logoLink'*/
+/*            'whiteLineContainer whiteLineContainer whiteLineContainer whiteLineContainer whiteLineContainer'*/
+/*            'allContentContainer allContentContainer allContentContainer allContentContainer allContentContainer'*/
+/*            'footer footer footer footer footer'*/
+/*;*/
+/*}*/
+
+.logoContainer {
+    width: 100%;
+    height: 147px;
+    background-color: #303030;
+}
+
+.logoLink {
+    padding: 30px 0 20px 7%;
+    position: relative;
+}
+
+.language {
+    right: 7%;
+    bottom: 20px;
+    position: absolute;
+}
+
+
+.language>button {
+    background-color: #303030;
+    border-radius: 3px;
+    display: flex;
+    padding: 10px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ffde2f;
+    outline: none;
+}
+/*.language>button:hover {*/
+/*    background-color: #ffde2f;*/
+/*}*/
+
+.flMr {
+    margin-right: 10px;
+}
+
+.language ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+}
+.language ul li a:hover {
+    background-color: #ffde2f;
+    opacity: 1;
+}
+
+.languageList {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    right: 7%;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    background-color: #303030;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.languageList>li {
+    margin-top: 10px;
+    background-color: #303030;
+}
+
+.languageList>li>a {
+    font-size: 22px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+    padding: 0 20px;
+}
+
+.lang {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.lang>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+.whiteLineContainer {
+    width: 100%;
+    height: 80px;
+    /*padding: 0 0 0 7%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whiteLineContainer>div {
+    display: inline-block;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.whiteLineInfoSpan {
+    margin-left: 10px;
+}
+
+.allContentContainer {
+    display: grid;
+    grid-area: allContentContainer;
+    grid-template-areas: 'wallet content content content content';
+    height: auto;
+}
+
+.wallet {
+    background-color: #303030;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.content {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.whiteLineContainerTotalBalance{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 35px;
+    color: #303030;
+}
+.whiteLineContainerFirstROI{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 35px;
+    color: #303030;
+    grid-area: whiteLineContainerFirstROI;
+}
+.whiteLineContainerFirstID{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 35px;
+    color: #303030;
+    grid-area: whiteLineContainerFirstID;
+}
+.whiteLineContainerFirst{
+    font-size: 25px;
+    color: #303030;
+    grid-area: whiteLineContainerFirst;
+}
+.whiteLineContainerFirstText{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 15px;
+    display: inline-block;
+    grid-area: whiteLineContainerFirstText;
+}
+.walletLi{
+    width: 100%;
+    margin-top: 15px;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 80px;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+.walletLi>span {
+    margin-left: 15px;
+}
+.servicesSpan {
+    margin: 0 !important;
+}
+
+.servicesLiSpan {
+    margin-left: 15px;
+}
+
+.hiddenLI{
+    display: none;
+}
+.navButton{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.wallet>ul {
+    padding-top: 63px;
+    padding-left: 40px;
+    padding-right: 35px;
+}
+.wallet>ul>a{
+    text-decoration: none;
+}
+.opeNavLi{
+    text-decoration: none;
+}
+
+.content{
+    background-image: url('images/Vector8.png');
+    background-color: #FFE663;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 100px; /*ste*/
+}
+.contantMainDiv{
+    margin-top: 84px;
+    margin-left: 94px;
+    width: 60%;
+}
+.contantGridDiv{
+    display: grid;
+    grid-gap: 25px;
+}
+.contentText{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #303030;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.logOutMedia {
+    display: none;
+}
+
+.a1 {
+    height: 156px;
+    width: 156px;
+    background-color: #303030;
+}
+
+.swiper-button-next {
+    /*color: red;*/
+    font-size: 10px;
+}
+
+.partners {
+    background-color: #FFE663;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #303030;
+}
+
+/*partners 2 styles starting here*/
+
+.partners2ContentContainer {
+    width: 80%;
+    height: auto;
+    /*display: grid;*/
+    /*border: 1px solid red;*/
+    margin: 53px 0 0 94px;
+    color: #303030;
+
+}
+.partners2Header {
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Bai Jamjuree', sans-serif;;
+}
+.partners2HeaderLink {
+    font-weight: 800;
+    color: #303030;
+
+}
+
+.partners2AboutUserPartnersContainer {
+    display: grid;
+    grid-template-areas:
+            'TotalPartnersContainer partnersBonusIncomeContainer'
+            'firstLinePartnersContainer firstLinePartnersContainer';
+    margin: 56px 0 0 65px;
+    font-size: 35px;
+    line-height: 80px;
+    font-family: 'Roboto', sans-serif;
+    grid-gap: 0 100px;
+}
+
+.partners2-TotalPartnersContainer {
+    grid-area: TotalPartnersContainer;
+}
+.partners2-partnersBonusIncomeContainer {
+    grid-area: partnersBonusIncomeContainer;
+}
+.partners2-firstLinePartnersContainer {
+    grid-area: firstLinePartnersContainer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+.partners2-partnersLine {
+    margin: 76px 0 0 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    line-height: 80px;
+}
+
+.partners2-cardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+}
+
+.partners2-card {
+    width: 281px;
+    height: 119px;
+    background-color: #303030;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-size: 25px;
+    text-align: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.partners2-card>p {
+    margin-top: 20px;
+    /*background-color: red;*/
+    height: 28px;
+}
+
+.partners2-seeMore {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 50px 0 0 60px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*footer*/
+.footer {
+    padding: 40px 0;
+    background-color: #303030;
+    grid-area: footer;
+}
+
+.footer>div {
+    display: inline-block;
+}
+
+.rules {
+    margin-left: 110px;
+    width: 60%;
+}
+.rules>div {
+    display: inline-block;
+}
+.rules>div>a {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.rules>div:not(:first-child) {
+    margin-left: 10%;
+}
+
+.rules>div>a:hover {
+    color: #FFE663;
+}
+
+.social {
+    margin-right: 110px;
+    float: right;
+    margin-top: -10px;
+}
+
+.social>div {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.social>div>a {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer .social div img {
+    height: 25px;
+}
+
+.footer .social div a:hover {
+    border-color: #ffde2f;
+}
+
+.fblink:hover .facebookLogo {
+    content: url("images/facebookHover.png");
+}
+.instagramLink:hover .instagramLogo {
+    content: url("images/instagramIconHover.png");
+}
+.telegramLink:hover .telegramLogo {
+    content: url("images/telegramHover.png");
+}
+
+
+@media (max-width: 1554px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 56px 0 0 65px;
+        font-size: 32px;
+        grid-gap: 0 60px;
+    }
+}
+
+@media (max-width: 1387px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 56px 0 0 65px;
+        font-size: 30px;
+        grid-gap: 0 30px;
+    }
+    .partners2Header {
+        font-size: 42px;
+    }
+    .partners2-seeMore {
+        font-size: 28px;
+    }
+    .social {
+        margin-right: 30px;
+    }
+    .wallet>ul {
+         padding-top: 63px;
+         padding-left: 20px;
+    }
+    .walletLi {
+        font-size: 22px;
+    }
+    .walletLi>span {
+        margin-left: 5px;
+    }
+    .rules>div>a {
+        font-size: 22px;
+    }
+    .rules>div:not(:first-child) {
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .partners2AboutUserPartnersContainer {
+        font-size: 28px;
+        grid-gap: 0 10px;
+        grid-template-areas:
+            'TotalPartnersContainer'
+            'partnersBonusIncomeContainer'
+            'firstLinePartnersContainer'
+    ;
+    }
+    .social {
+        margin-right: 28px;
+    }
+    .rules {
+        margin-left: 50px;
+    }
+    .partners2-cardContainer {
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+    .partners2-card {
+        width: 210px;
+        height: 100px;
+        font-size: 20px;
+    }
+    .partners2-card>p {
+        margin-top: 15px;
+        height: 25px;
+    }
+    .partners2-seeMore {
+        margin: 40px 0 0 60px;
+    }
+    .social>div>a {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .partners2-cardContainer {
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 0;
+    }
+    .partners2Header {
+        font-size: 38px;
+    }
+    .logOutPicture {
+        width: 30px;
+        height: 20px
+    }
+    .whiteLineContainerFirst {
+        font-size: 20px;
+    }
+    .whiteLineContainerFirstID {
+        font-size: 22px;
+    }
+    .whiteLineContainerFirstROI {
+        font-size: 22px;
+    }
+    .whiteLineContainerTotalBalance {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .rules>div:not(:first-child) {
+        margin-left: 5%;
+    }
+    .social {
+        margin-right: 15px;
+    }
+    .social>div {
+        padding: 0 10px;
+    }
+    .rules {
+        width: 70%;
+    }
+}
+
+@media (max-width: 943px) {
+    .footer {
+        height: auto;
+        padding: 55px 0;
+        margin-top: -1px;
+    }
+    .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .social>div {
+        padding: 0 20px;
+    }
+    .rules {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 50px;
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-row-gap: 50px;
+    }
+    .rules>div:not(:first-child) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 834px) {
+    .allContentContainer {
+        grid-template-areas: 'content content content content wallet';
+    }
+    .content {
+        grid-area: content;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .wallet {
+        grid-area: wallet;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        margin: 0 -1px 0 0;
+    }
+    .walletLi>span {
+        display: none;
+    }
+    .servicesSpan {
+        display: inline-block !important;
+    }
+    .servicesLiSpan {
+        display: none;
+    }
+    .navButton {
+        display: none;
+    }
+    .hiddenLI {
+        padding: 0;
+    }
+    .atomixImg {
+        width: 20px;
+        height: 15px;
+    }
+    .investmentsImg {
+        width: 20px;
+        height: 15px;
+    }
+    .opeNavLi>li {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .wallet>ul {
+        padding-left: 0 !important;
+    }
+    .content {
+        background-image: url(images/Vector8media.png);
+        background-position: bottom left;
+    }
+    .partners2-seeMore {
+        margin: 40px 0 0 300px;
+    }
+    .footer {
+        margin: -1px -1px 0 0;
+        border: 1px solid #303030;
+    }
+    .walletLi {
+        padding-left: 20px;
+        line-height: 60px;
+    }
+    .walletLiPartners {
+        background-color: #FFE663;
+    }
+    .walletLiPartners>img {
+        content: url("images/Partners (2).png");
+    }
+    .logOut {
+        grid-area: logOut;
+    }
+    .whiteLineContainer {
+        display: grid;
+        grid-template-areas: 'whiteLineContainerFirst whiteLineContainerFirstROI logOut'
+                            'whiteLineContainerFirst whiteLineContainerFirstID logOut';
+        align-items: center;
+    }
+    /*.whiteLineContainerFirst {*/
+    /*    margin-left: 10%;*/
+    /*}*/
+    .whiteLineContainerTotalBalance {
+        display: none !important;
+    }
+    .logOutMedia {
+        display: block;
+    }
+    /*.whiteLineContainerFirstID {*/
+    /*    transform: translate(120px, 14px);*/
+    /*}*/
+    /*.whiteLineContainerFirstROI {*/
+    /*    transform: translate(-64px, -14px);*/
+    /*}*/
+    .logOut>a>img {
+        content: url("images/burgerMenu.png");
+    }
+}
+
+@media (max-width: 722px) {
+    .walletLi {
+        padding-left: 30px;
+        line-height: 60px;
+    }
+    .partners2ContentContainer {
+        margin: 53px 0 0 40px;
+    }
+    .partners2AboutUserPartnersContainer {
+        margin: 56px 0 0 10px;
+    }
+    .partners2Header {
+        font-size: 34px;
+    }
+    .partners2AboutUserPartnersContainer {
+        font-size: 24px;
+    }
+    .partners2AboutUserPartnersContainer {
+        line-height: 60px;
+    }
+    .partners2-partnersLine {
+        margin: 50px 0 0 10px;
+        font-size: 32px;
+        line-height: 60px;
+    }
+    .partners2-seeMore {
+        margin: 20px 0 0 300px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 615px) {
+    .partners2-card {
+        width: 120px;
+        height: 90px;
+        font-size: 16px;
+    }
+    .partners2-card>p {
+        margin-top: 0;
+    }
+    .partners2-card>p:first-child {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 577px) {
+    .partners2-seeMore {
+        margin: 20px 0 0 150px;
+        font-size: 20px;
+    }
+    .partners2-partnersLine {
+        font-size: 28px;
+    }
+    .walletLi {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .partners2AboutUserPartnersContainer {
+        font-size: 18px;
+        margin: 56px 0 0 0;
+    }
+    .partners2Header {
+        font-size: 28px;
+    }
+    
+}
+
+@media (max-width: 424px) {
+    .whiteLineContainerFirst {
+        font-size: 16px;
+    }
+    .whiteLineContainerFirstID {
+        font-size: 16px;
+    }
+    .whiteLineContainerFirstROI {
+        font-size: 16px;
+    }
+    .partners2AboutUserPartnersContainer {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+    .partners2Header {
+        font-size: 22px;
+    }
+    .partners2AboutUserPartnersContainer {
+        font-size: 14px;
+        margin: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 367px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 20px 0 0 0;
+        font-size: 13px;
+    }
+    .partners2ContentContainer {
+        margin: 53px 0 0 4px;
+    }
+    .partners2-seeMore {
+        margin: 0 0 0 120px;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .partners2-card {
+        width: 110px;
+        height: 90px;
+        font-size: 14px;
+    }
+    .partners2-partnersLine {
+        font-size: 22px;
+    }
+    .walletLi {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .allContentContainer {
+        grid-template-areas: 'content content content content content wallet';
+    }
+    .wallet>img {
+        float: right;
+    }
+    .wallet>span {
+        float: left;
+    }
+}
