@@ -13,11 +13,9 @@
 
                 <p class="aboutCompanyContent aboutUsPageContent">
                     Every day we encounter hundreds of investment projects. Can we say that they all deserve
-
-                    attenton?<br>
-
+                    attenton?
+                    <br>
                     Atomix is a unified platform that will allow you to generate profits. It will be an ideal source of
-
                     passive income for beginners and professional investors... But about everything in order.
 
                 </p>
